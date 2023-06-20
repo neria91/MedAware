@@ -9,7 +9,7 @@ RUN adduser --system -u 1000 MAuser
 RUN chown MAuser /MAapp
 
 # Copy the application files to the container
-COPY --chown=MAuser . .
+COPY --chown=MAuser:1000 . .
 
 # Install the required Python packages
 RUN pip install --no-cache-dir -r requirements.txt
