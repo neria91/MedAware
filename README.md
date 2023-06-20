@@ -8,8 +8,7 @@ After you pull the project use  "docker compose up -d" in the project's director
 
 
 
-You can change the local variables in .env , it should be in '.gitignore' and '.dockerignore'
-but it isnt for easy test in this scenario.
+You can change the local variables in .env , it should be in '.gitignore' and '.dockerignore' but it is not for easy test in this scenario.
 
 
 
