@@ -13,6 +13,7 @@ services:
       - MYSQL_USER=${MYSQL_USER}
       - MYSQL_PASSWORD=${MYSQL_PASSWORD}
       - MYSQL_DATABASE=${MYSQL_DATABASE}
+      - MYSQL_RANDOM_ROOT_PASSWORD="YES"
     volumes:
       - mysql-data:/var/lib/mysql
     networks:
