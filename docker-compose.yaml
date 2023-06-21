@@ -41,7 +41,7 @@ services:
       - application-network
 
   webserver:
-    image: nginx:1.23.4-alpine
+    image: nginx:1.25.1-alpine
     restart: always
     deploy:
       resources:
